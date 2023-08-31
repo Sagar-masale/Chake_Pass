@@ -6,18 +6,23 @@
     <title>passWord</title>
 </head>
 <body>
-    <h1 class="title">
-        Hello World
-    </h1>
+  
 
     <script>
+        var Id;
         var pass;
-       pass = prompt("Enter pass");
-       if(pass=="sagar123"){
-        console.log("Pass is correct");
-       }else{
-        console.log("Pass is not correct");
-       }
+       Id = prompt("Enter id");
+       if(Id=="its_sagar_27_"){
+        pass = prompt("Enter pass");
+        if(pass=="sagar123"){
+            alert("your pass is correct");
+        }else if(pass != "sagar123"){
+            alert("pass is wrong");
+        }
+        }else{
+            alert("Your id is wrong");
+        }
+       
     </script>
     
 </body>
